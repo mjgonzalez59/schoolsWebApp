@@ -1,0 +1,8 @@
+<div class="container enroll-student">
+  <h1 class="jumbotron-heading">Enrolling Students</h1>
+  <p class="lead text-muted">Here are all the students, if you want to enroll a specific student, please click the button</p>
+  <button class="btn btn-primary" routerLink="/enrollStudent">Enroll Student</button>
+  <div class="students-container">
+    <app-student *ngFor="let student of students"  [myStudent]="student"></app-student>
+  </div>
+</div>

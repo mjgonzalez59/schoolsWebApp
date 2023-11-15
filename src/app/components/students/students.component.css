@@ -1,0 +1,8 @@
+.enroll-student{
+  text-align: center;
+}
+
+.students-container{
+  display: flex;
+  text-align: justify;
+}
